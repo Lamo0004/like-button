@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Hvad må man gerne fjerne fra ny Next.js-installation
+
+- Alt indhold i Public (SVG'er) – fjerner svg'erne
+- Favicon – fjerner faviconet. Hvis man gerne vil have et favicon, skal man erstatte filen og så sætter systemet det selv på
+- Alt indhold i return på page.js
+- Package-lock.json fil – bruges ikke til noget, vi skal ikke spekulere over den. Den kommer nok igen (måske).
